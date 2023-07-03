@@ -177,7 +177,7 @@ Supplementing this section are the `demo_model_evaluation.ipynb` and the `titani
 
 The training and testing accuracy for each model are given in the bar chart.
 
-<img src = "images/[data_visual][barplot][model_accuracies][001].png" width="800" height="600"/>
+<img src = "images/[data_visual][barplot][model_accuracies][001].png" width="600" height="400"/>
 
 The `neural_network` model achieves the highest testing accuracy of 0.8320, showing a marginal improvement of only 0.91% over the `support_vector` and `logistic` models, which obtained a score of 0.8246. Following closely in the third position is the `forest` model with an accuracy of 0.8209, followed by `adaboost` (0.8097), `gaussian_NB` (0.7799), and `bernoulli_NB` (0.7724). It is noteworthy that the `dummy` model exhibits the lowest performance, scoring only 0.6157.
 
