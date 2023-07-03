@@ -4,20 +4,20 @@
 
 <h2>Abstract</h2>
 
-This project provides a comprehensive exploration of the predictive modeling workflow using the Kaggle competition "Titanic - Machine Learning from Disaster" as a case study. It delves into key stages such as exploratory data analysis and model evaluation, aiming to identify the most effective model for the competition. By treating the competition as a real-world predictive modeling task, this project enhances our understanding of the workflow while emphasizing the importance of rigorous model evaluation.
+This project provides a comprehensive exploration of the predictive modelling workflow using the Kaggle competition "Titanic - Machine Learning from Disaster" as a case study. It delves into key stages such as exploratory data analysis and model evaluation, aiming to identify the most effective model for the competition. By treating the competition as a real-world predictive modelling task, this project enhances our understanding of the workflow while emphasizing the importance of rigorous model evaluation.
 
 <h2>Introduction</h2>
 
-Data permeates every aspect of our world, and harnessing its power through data-driven decision-making is crucial for progress. Predictive modeling is a powerful tool that enables organizations to streamline these decision-making processes, finding insights and making accurate predictions based on available data. Its applications span across diverse industries, such as healthcare, finance, and more. For instance, in the medical industry, predictive modeling can help hospitals predict human survival rates based on patients' medical and health conditions. In the financial industry, credit card companies leverage predictive models to determine whether a transaction is fraudulent. These real-life applications highlight the practical value of predictive modeling.
+Data permeates every aspect of our world, and harnessing its power through data-driven decision-making is crucial for progress. Predictive modelling is a powerful tool that enables organizations to streamline these decision-making processes, finding insights and making accurate predictions based on available data. Its applications span across diverse industries, such as healthcare, finance, and more. For instance, in the medical industry, predictive modelling can help hospitals predict human survival rates based on patients' medical and health conditions. In the financial industry, credit card companies leverage predictive models to determine whether a transaction is fraudulent. These real-life applications highlight the practical value of predictive modelling.
 
-The workflow of predictive modeling involves several key stages. It begins with data acquisition, exploratory data analysis, and data cleaning to ensure the data is suitable for analysis. Subsequently, the data is tailored and fed into computers, which employ advanced algorithms to learn intricate patterns and relationships within the data. Once the learning process is complete, predictions are generated, enabling decision-makers to make informed choices based on the insights provided by the predictive models. This workflow forms the foundation of predictive modeling.
+The workflow of predictive modelling involves several key stages. It begins with data acquisition, exploratory data analysis, and data cleaning to ensure the data is suitable for analysis. Subsequently, the data is tailored and fed into computers, which employ advanced algorithms to learn intricate patterns and relationships within the data. Once the learning process is complete, predictions are generated, enabling decision-makers to make informed choices based on the insights provided by the predictive models. This workflow forms the foundation of predictive modelling.
 
-In this work, we simulate the predictive modeling workflow by participating in the Kaggle Getting Started competition __Titanic - Machine Learning from Disaster ([Kaggle link](https://www.kaggle.com/competitions/titanic/))__. By drawing an analogy between the competition's subtasks and the stages of real-life predictive modeling, we aim to provide an educational and insightful experience. The analogy is established as follows:
+In this work, we simulate the predictive modelling workflow by participating in the Kaggle Getting Started competition __Titanic - Machine Learning from Disaster ([Kaggle link](https://www.kaggle.com/competitions/titanic/))__. By drawing an analogy between the competition's subtasks and the stages of real-life predictive modelling, we aim to provide an educational and insightful experience. The analogy is established as follows:
 
 <table style="width:50%">
   <tr>
     <th style="text-align:center">Kaggle Competition Subtasks</th>
-    <th style="text-align:center">Analogy to Real-life Predictive Modeling</th>
+    <th style="text-align:center">Analogy to Real-life Predictive Modelling</th>
   </tr>
   <tr>
     <td style="text-align:center">Training the Model</td>
@@ -37,7 +37,7 @@ Our workflow encompasses three main stages. The first stage is data preparation,
 
 Next, we submitted our predictions to Kaggle to validate our findings on overfitting and model ranking. This process mirrors the online evaluation phase, allowing for an extensive comparison between the online and offline evaluation results. The Kaggle submission aligned with our conclusions on overfitting models and accurately predicted the best-performing model in the Kaggle competition based solely on testing performance.
 
-This document primarily focuses on demonstrating the following workflows in predictive modeling:
+This document primarily focuses on demonstrating the following workflows in predictive modelling:
 
 1. Data Aquisition
 2. Exploration Data Analysis
@@ -177,7 +177,7 @@ Supplementing this section are the `demo_model_evaluation.ipynb` and the `titani
 
 The training and testing accuracy for each model are given in the bar chart.
 
-<img src = "images/[data_visual][barplot][model_accuracies][001].png" width="600" height="400"/>
+<img src = "images/[data_visual][barplot][model_accuracies][001].png" width="800" height="600"/>
 
 The `neural_network` model achieves the highest testing accuracy of 0.8320, showing a marginal improvement of only 0.91% over the `support_vector` and `logistic` models, which obtained a score of 0.8246. Following closely in the third position is the `forest` model with an accuracy of 0.8209, followed by `adaboost` (0.8097), `gaussian_NB` (0.7799), and `bernoulli_NB` (0.7724). It is noteworthy that the `dummy` model exhibits the lowest performance, scoring only 0.6157.
 
